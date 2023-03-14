@@ -35,7 +35,7 @@ function myHook(){
         if( isTimeRunning && time > 0){
             setWordCount(0)
             setTimeout(()=>{
-                setTime(prev => prev -1)            
+                setTime(prev => prev -1)
             },1000)
         }else if(time === 0){
             endGame()
