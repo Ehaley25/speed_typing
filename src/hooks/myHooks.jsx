@@ -2,7 +2,7 @@ import {useState , useRef , useEffect} from 'react'
 
 function myHook(){
     
-    const [time , setTime] = useState(5)
+    const [time , setTime] = useState(10)
     const [words , setWords] = useState('')
     const [wordCount , setWordCount] = useState(0)
     const [isTimeRunning , setIsTimeRunning] = useState(false)
